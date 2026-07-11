@@ -1,0 +1,37 @@
+# Mirrors the URLhaus feed (CC0/public domain — redistribution permitted) so
+# SafeQR clients have a fallback if urlhaus.abuse.ch is unreachable.
+# OpenPhish is deliberately NOT mirrored: its community-feed terms do not
+# permit redistribution. Clients fall back to their on-device cache for it.
+name: Mirror threat feeds
+on:
+  schedule:
+    - cron: '17 */6 * * *' # every 6 hours (offset to avoid top-of-hour load)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch URLhaus recent feed
+        run: |
+          curl -fsSL --max-time 120 'https://urlhaus.abuse.ch/downloads/text_recent/' -o /tmp/urlhaus.txt
+          # Sanity check: a real feed is comment headers + thousands of URLs.
+          lines=$(grep -c '^http' /tmp/urlhaus.txt || true)
+          if [ "$lines" -lt 1000 ]; then
+            echo "Feed looks truncated ($lines URLs) — keeping previous mirror" >&2
+            exit 1
+          fi
+          mkdir -p v1/threats
+          mv /tmp/urlhaus.txt v1/threats/urlhaus.txt
+          date -u +"%Y-%m-%dT%H:%M:%SZ" > v1/threats/urlhaus.updated
+      - name: Commit if changed
+        run: |
+          git config user.name 'safeqr-mirror-bot'
+          git config user.email 'actions@github.com'
+          git add v1/threats
+          git diff --cached --quiet || git commit -m "Mirror URLhaus feed"
+          git push
