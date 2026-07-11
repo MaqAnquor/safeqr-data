@@ -1,0 +1,72 @@
+{
+  "356": {
+    "symbol": "₹",
+    "name": "INR",
+    "country": "India",
+    "scheme": "UPI / Bharat QR",
+    "scamNote": "Fraudsters paste their own UPI QR sticker over a shop's genuine one, or ask victims to \"scan to receive\" a refund — which is never how receiving money works."
+  },
+  "986": {
+    "symbol": "R$",
+    "name": "BRL",
+    "country": "Brazil",
+    "scheme": "Pix",
+    "scamNote": "Brazilian fraudsters have re-broadcast legitimate livestreams (e.g. charity drives) with a swapped Pix QR code overlaid, redirecting donations to themselves."
+  },
+  "458": {
+    "symbol": "RM",
+    "name": "MYR",
+    "country": "Malaysia",
+    "scheme": "DuitNow QR",
+    "scamNote": "Malaysian authorities have documented stalls and restaurants where the genuine DuitNow QR sticker was physically replaced with a fraudster's own code."
+  },
+  "360": {
+    "symbol": "Rp",
+    "name": "IDR",
+    "country": "Indonesia",
+    "scheme": "QRIS",
+    "scamNote": "Indonesian police have reported QRIS stickers swapped at mosques, parking stands, and small merchants, redirecting donations or payments to a scammer's account."
+  },
+  "704": {
+    "symbol": "₫",
+    "name": "VND",
+    "country": "Vietnam",
+    "scheme": "VietQR",
+    "scamNote": "Reported VietQR scams include fake \"loan approval\" or \"refund\" codes sent over Zalo/Facebook that require scanning to supposedly receive money."
+  },
+  "608": {
+    "symbol": "₱",
+    "name": "PHP",
+    "country": "the Philippines",
+    "scheme": "QR Ph",
+    "scamNote": "Reported QR Ph scams include fake delivery-fee or rider \"cash-in\" QR codes presented by impersonators posing as couriers or vendors."
+  },
+  "764": {
+    "symbol": "฿",
+    "name": "THB",
+    "country": "Thailand",
+    "scheme": "PromptPay",
+    "scamNote": "Reported PromptPay scams include fraudulent QR stickers placed over donation boxes and market-stall payment signs."
+  },
+  "702": {
+    "symbol": "S$",
+    "name": "SGD",
+    "country": "Singapore",
+    "scheme": "PayNow",
+    "scamNote": "Singapore police have warned of PayNow QR codes shared in messaging apps for fake \"prize claim\" or \"deposit refund\" scams."
+  },
+  "116": {
+    "symbol": "៛",
+    "name": "KHR",
+    "country": "Cambodia",
+    "scheme": "KHQR (Bakong)",
+    "scamNote": "Sticker-swap scams targeting merchant payment QR codes have been reported across the region — confirm the payee name shown in your banking app matches the merchant."
+  },
+  "144": {
+    "symbol": "Rs ",
+    "name": "LKR",
+    "country": "Sri Lanka",
+    "scheme": "LANKAQR",
+    "scamNote": "Sticker-swap scams targeting merchant payment QR codes have been reported across the region — confirm the payee name shown in your banking app matches the merchant."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.0.0",
+  "updatedAt": "2026-07-11",
+  "files": {
+    "regions": {
+      "path": "v1/regions.json",
+      "version": "1.1.0",
+      "description": "ISO-4217 numeric currency code -> payment scheme metadata + scam note"
+    }
+  },
+  "compat": {
+    "v1": "Frozen shape: {code: {symbol,name,country,scheme,scamNote}}. Never remove or rename keys; only add entries or fix values. Breaking shape changes go to /v2 with a new manifest entry."
+  }
+}
