@@ -9,7 +9,7 @@
     },
     "evOperators": {
       "path": "v1/ev-operators.json",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "Curated allowlist of official EV-charging and parking-operator payment domains (verified, sourced). Match on eTLD+1 or listed subdomain - never substring. Soften charger/parking warnings only on HTTPS + exact match; unknown domains on charger-pattern QRs stay hardened."
     }
   },

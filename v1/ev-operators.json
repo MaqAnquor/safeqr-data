@@ -6,7 +6,10 @@
       "name": "Tata Power EZ Charge",
       "region": "IN",
       "type": "ev-charging",
-      "domains": ["tatapower.com", "ezcharge.tatapower.com"],
+      "domains": [
+        "tatapower.com",
+        "ezcharge.tatapower.com"
+      ],
       "source": "https://www.tatapower.com/ezcharge",
       "confidence": "high"
     },
@@ -14,7 +17,9 @@
       "name": "Statiq",
       "region": "IN",
       "type": "ev-charging",
-      "domains": ["statiq.in"],
+      "domains": [
+        "statiq.in"
+      ],
       "source": "https://www.statiq.in/",
       "confidence": "high"
     },
@@ -22,7 +27,9 @@
       "name": "ChargeZone",
       "region": "IN",
       "type": "ev-charging",
-      "domains": ["chargezone.co.in"],
+      "domains": [
+        "chargezone.co.in"
+      ],
       "source": "https://www.chargezone.co.in/",
       "confidence": "high"
     },
@@ -30,7 +37,9 @@
       "name": "Ather Grid (Ather Energy)",
       "region": "IN",
       "type": "ev-charging",
-      "domains": ["atherenergy.com"],
+      "domains": [
+        "atherenergy.com"
+      ],
       "source": "https://www.atherenergy.com/charging",
       "confidence": "high"
     },
@@ -38,7 +47,9 @@
       "name": "Jio-bp Pulse",
       "region": "IN",
       "type": "ev-charging",
-      "domains": ["jiobp.com"],
+      "domains": [
+        "jiobp.com"
+      ],
       "source": "https://www.jiobp.com/products-and-services/EV-charging",
       "confidence": "high"
     },
@@ -46,7 +57,9 @@
       "name": "Park+",
       "region": "IN",
       "type": "parking",
-      "domains": ["parkplus.io"],
+      "domains": [
+        "parkplus.io"
+      ],
       "source": "https://parkplus.io/",
       "confidence": "high"
     },
@@ -54,7 +67,10 @@
       "name": "SP Mobility / SP Group",
       "region": "SG",
       "type": "ev-charging",
-      "domains": ["spmobility.sg", "spgroup.com.sg"],
+      "domains": [
+        "spmobility.sg",
+        "spgroup.com.sg"
+      ],
       "source": "https://www.spmobility.sg/",
       "confidence": "high"
     },
@@ -62,7 +78,9 @@
       "name": "CDG ENGIE (ComfortDelGro ENGIE)",
       "region": "SG",
       "type": "ev-charging",
-      "domains": ["cdgengie.com"],
+      "domains": [
+        "cdgengie.com"
+      ],
       "source": "https://cdgengie.com/index.html",
       "confidence": "high"
     },
@@ -70,7 +88,10 @@
       "name": "Charge+",
       "region": "SG",
       "type": "ev-charging",
-      "domains": ["chargeplus.com", "chargeplus.sg"],
+      "domains": [
+        "chargeplus.com",
+        "chargeplus.sg"
+      ],
       "source": "https://www.chargeplus.com/",
       "confidence": "high"
     },
@@ -78,7 +99,9 @@
       "name": "Parking.sg (URA/HDB, Government of Singapore)",
       "region": "SG",
       "type": "parking",
-      "domains": ["parking.sg"],
+      "domains": [
+        "parking.sg"
+      ],
       "source": "https://www.ura.gov.sg/Corporate/Car-Parks/Short-Term-Parking/Parkingsg-Mobile-Application",
       "confidence": "high"
     },
@@ -86,7 +109,9 @@
       "name": "Gentari (Gentari Go)",
       "region": "MY",
       "type": "ev-charging",
-      "domains": ["gentari.com"],
+      "domains": [
+        "gentari.com"
+      ],
       "source": "https://www.gentari.com/go/home",
       "confidence": "high"
     },
@@ -94,7 +119,9 @@
       "name": "JomCharge (EV Connection)",
       "region": "MY",
       "type": "ev-charging",
-      "domains": ["jomcharge.com"],
+      "domains": [
+        "jomcharge.com"
+      ],
       "source": "https://www.jomcharge.com/",
       "confidence": "medium"
     },
@@ -102,7 +129,9 @@
       "name": "ChargePoint",
       "region": "GLOBAL",
       "type": "ev-charging",
-      "domains": ["chargepoint.com"],
+      "domains": [
+        "chargepoint.com"
+      ],
       "source": "https://www.chargepoint.com/",
       "confidence": "high"
     },
@@ -110,7 +139,9 @@
       "name": "Tesla (Supercharger)",
       "region": "GLOBAL",
       "type": "ev-charging",
-      "domains": ["tesla.com"],
+      "domains": [
+        "tesla.com"
+      ],
       "source": "https://www.tesla.com/charge",
       "confidence": "high"
     },
@@ -118,7 +149,9 @@
       "name": "Shell Recharge",
       "region": "GLOBAL",
       "type": "ev-charging",
-      "domains": ["shellrecharge.com"],
+      "domains": [
+        "shellrecharge.com"
+      ],
       "source": "https://shellrecharge.com/en-us/solutions/ev-drivers",
       "confidence": "high"
     },
@@ -126,7 +159,9 @@
       "name": "bp pulse",
       "region": "GLOBAL",
       "type": "ev-charging",
-      "domains": ["bppulse.com"],
+      "domains": [
+        "bppulse.com"
+      ],
       "source": "https://www.bppulse.com/en-gb",
       "confidence": "high"
     },
@@ -134,7 +169,9 @@
       "name": "EVgo",
       "region": "US",
       "type": "ev-charging",
-      "domains": ["evgo.com"],
+      "domains": [
+        "evgo.com"
+      ],
       "source": "https://www.evgo.com/",
       "confidence": "high"
     },
@@ -142,7 +179,9 @@
       "name": "Electrify America",
       "region": "US",
       "type": "ev-charging",
-      "domains": ["electrifyamerica.com"],
+      "domains": [
+        "electrifyamerica.com"
+      ],
       "source": "https://www.electrifyamerica.com/",
       "confidence": "high"
     },
@@ -150,7 +189,9 @@
       "name": "IONITY",
       "region": "EU",
       "type": "ev-charging",
-      "domains": ["ionity.eu"],
+      "domains": [
+        "ionity.eu"
+      ],
       "source": "https://www.ionity.eu/",
       "confidence": "high"
     },
@@ -158,7 +199,9 @@
       "name": "PayByPhone",
       "region": "GLOBAL",
       "type": "parking",
-      "domains": ["paybyphone.com"],
+      "domains": [
+        "paybyphone.com"
+      ],
       "source": "https://www.paybyphone.com/",
       "confidence": "high"
     },
@@ -166,9 +209,204 @@
       "name": "RingGo",
       "region": "UK",
       "type": "parking",
-      "domains": ["ringgo.co.uk", "myringgo.co.uk"],
+      "domains": [
+        "ringgo.co.uk",
+        "myringgo.co.uk"
+      ],
       "source": "https://ringgo.co.uk/",
       "confidence": "high"
+    },
+    {
+      "name": "EA Anywhere (Energy Absolute / Energy Mahanakhon)",
+      "region": "TH",
+      "type": "ev-charging",
+      "domains": [
+        "eaanywhere.com"
+      ],
+      "source": "https://www.eaanywhere.com/",
+      "confidence": "high"
+    },
+    {
+      "name": "EV Station PluZ (PTT Oil and Retail Business - OR)",
+      "region": "TH",
+      "type": "ev-charging",
+      "domains": [
+        "evstationpluz.pttor.com",
+        "pttor.com"
+      ],
+      "source": "https://evstationpluz.pttor.com/",
+      "confidence": "high"
+    },
+    {
+      "name": "PEA VOLTA (Provincial Electricity Authority)",
+      "region": "TH",
+      "type": "ev-charging",
+      "domains": [
+        "peavoltaev.pea.co.th",
+        "pea.co.th"
+      ],
+      "source": "https://peavoltaev.pea.co.th/",
+      "confidence": "high"
+    },
+    {
+      "name": "MEA EV (Metropolitan Electricity Authority)",
+      "region": "TH",
+      "type": "ev-charging",
+      "domains": [
+        "mea.or.th"
+      ],
+      "source": "https://www.mea.or.th/en/our-services/mea-service/mobile-application/mea-ev",
+      "confidence": "high"
+    },
+    {
+      "name": "Sharge (SHARGE Management)",
+      "region": "TH",
+      "type": "ev-charging",
+      "domains": [
+        "sharge.co.th"
+      ],
+      "source": "https://sharge.co.th/",
+      "confidence": "high"
+    },
+    {
+      "name": "EleX by EGAT / EleXA (Electricity Generating Authority of Thailand)",
+      "region": "TH",
+      "type": "ev-charging",
+      "domains": [
+        "egatev.egat.co.th",
+        "egat.co.th"
+      ],
+      "source": "https://egatev.egat.co.th/our-services/elexa/",
+      "confidence": "high"
+    },
+    {
+      "name": "PLN Charge.IN / SPKLU network (PLN Mobile app)",
+      "region": "ID",
+      "type": "ev-charging",
+      "domains": [
+        "pln.co.id"
+      ],
+      "source": "https://www.esdm.go.id/en/media-center/news-archives/pln-gandeng-pihak-swasta-perbanyak-spklu-dengan-skema-bagi-hasil",
+      "confidence": "medium"
+    },
+    {
+      "name": "Casion (PT Casion Power Indonesia)",
+      "region": "ID",
+      "type": "ev-charging",
+      "domains": [
+        "cas-ion.com"
+      ],
+      "source": "https://cas-ion.com/",
+      "confidence": "high"
+    },
+    {
+      "name": "Voltron Indonesia (formerly EVCuzz)",
+      "region": "ID",
+      "type": "ev-charging",
+      "domains": [
+        "voltron.id"
+      ],
+      "source": "https://voltron.id/",
+      "confidence": "high"
+    },
+    {
+      "name": "Utomo Charge+ (PT Utomo Chargeplus Indonesia; Charge+ SG partnership)",
+      "region": "ID",
+      "type": "ev-charging",
+      "domains": [
+        "utomochargeplus.com",
+        "chargeplus.com"
+      ],
+      "source": "https://utomochargeplus.com/",
+      "confidence": "high"
+    },
+    {
+      "name": "Parkee",
+      "region": "ID",
+      "type": "parking",
+      "domains": [
+        "parkee.app"
+      ],
+      "source": "https://parkee.app/en",
+      "confidence": "high"
+    },
+    {
+      "name": "Sky Parking (PT Sky Parking Utama)",
+      "region": "ID",
+      "type": "parking",
+      "domains": [
+        "skyparking.co.id"
+      ],
+      "source": "https://www.skyparking.co.id/home",
+      "confidence": "high"
+    },
+    {
+      "name": "V-Green (VinFast ecosystem charging network)",
+      "region": "VN",
+      "type": "ev-charging",
+      "domains": [
+        "vgreen.net"
+      ],
+      "source": "https://vgreen.net/en/cau-hoi-thuong-gap",
+      "confidence": "high"
+    },
+    {
+      "name": "EBOOST (EVIDA)",
+      "region": "VN",
+      "type": "ev-charging",
+      "domains": [
+        "eboost.vn"
+      ],
+      "source": "https://eboost.vn/en/",
+      "confidence": "high"
+    },
+    {
+      "name": "EV ONE (EV ONE Equipment & Charging Solutions JSC)",
+      "region": "VN",
+      "type": "ev-charging",
+      "domains": [
+        "ev-one.vn"
+      ],
+      "source": "https://ev-one.vn/",
+      "confidence": "high"
+    }
+  ],
+  "excluded": [
+    {
+      "name": "DatCharge (Dat Bike, VN)",
+      "reason": "Appears to be Dat Bike's e-bike fast-charging pilot, not a general EV payment network; no dedicated official domain could be verified from an authoritative source."
+    },
+    {
+      "name": "elexaev.com",
+      "reason": "Site presents itself as 'ElexaEV' but serves a self-signed TLS certificate and could not be verified as EGAT property; EGAT's own official pages only reference egatev.egat.co.th. Do not allowlist."
+    },
+    {
+      "name": "casion.id",
+      "reason": "Referenced by Casion (Instagram handle @casion.id) but the domain refused HTTPS connections at verification time; only cas-ion.com verified live. Re-check before allowlisting."
+    },
+    {
+      "name": "Thailand parking operators (Park2Go, ParkByPlate, AOT Smart Car Park, BTS/MRT Park & Ride)",
+      "reason": "Market is fragmented with no dominant QR-payment parking operator; AOT's carpark.airportthai.co.th had an unverifiable certificate chain at check time. None met the verification bar."
+    },
+    {
+      "name": "Vietnam parking apps",
+      "reason": "No dominant, verifiable QR-payment parking operator identified; parking payment in VN is largely cash/e-wallet at gate."
+    },
+    {
+      "name": "EVCS.VN (Tram Sac EV aggregator, VN)",
+      "reason": "Aggregator app listing multiple providers; could not verify it as an operator with an official payment domain."
+    }
+  ],
+  "denylistCandidates": [
+    {
+      "domain": "ezcharge-tatapower.com",
+      "impersonates": "Tata Power EZ Charge",
+      "note": "live lookalike found during 2026-07-13 research"
+    },
+    {
+      "domain": "chargzone.com",
+      "impersonates": "ChargeZone",
+      "note": "live lookalike found during 2026-07-13 research"
     }
   ]
 }
