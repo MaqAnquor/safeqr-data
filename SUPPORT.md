@@ -42,3 +42,15 @@ Please include: your device model, the app version (shown at the bottom of the
 
 Full privacy policy: [PRIVACY.md](./PRIVACY.md). Short version: we collect
 nothing and store nothing off your device.
+
+## Disclaimer
+
+ScanFirst is a **safety aid, not a guarantee of safety**. We check every scan
+against threat databases, link destinations, and known scam patterns and explain
+what we find in plain language — but no automated tool can detect every threat,
+and databases and scam tactics change constantly. A "Looks safe" result means
+our checks found no problems; it is not a promise that the code, link, or payment
+is safe. You remain responsible for your own decisions — verify payees, amounts,
+and destinations yourself, and never enter a PIN or credentials to *receive*
+money. ScanFirst is provided "as is," without warranty, and is not liable for
+losses arising from your use of it. See [DISCLAIMER.md](./DISCLAIMER.md).
