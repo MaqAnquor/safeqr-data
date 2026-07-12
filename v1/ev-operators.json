@@ -1,0 +1,174 @@
+{
+  "schemaVersion": "1.0.0",
+  "updatedAt": "2026-07-13",
+  "operators": [
+    {
+      "name": "Tata Power EZ Charge",
+      "region": "IN",
+      "type": "ev-charging",
+      "domains": ["tatapower.com", "ezcharge.tatapower.com"],
+      "source": "https://www.tatapower.com/ezcharge",
+      "confidence": "high"
+    },
+    {
+      "name": "Statiq",
+      "region": "IN",
+      "type": "ev-charging",
+      "domains": ["statiq.in"],
+      "source": "https://www.statiq.in/",
+      "confidence": "high"
+    },
+    {
+      "name": "ChargeZone",
+      "region": "IN",
+      "type": "ev-charging",
+      "domains": ["chargezone.co.in"],
+      "source": "https://www.chargezone.co.in/",
+      "confidence": "high"
+    },
+    {
+      "name": "Ather Grid (Ather Energy)",
+      "region": "IN",
+      "type": "ev-charging",
+      "domains": ["atherenergy.com"],
+      "source": "https://www.atherenergy.com/charging",
+      "confidence": "high"
+    },
+    {
+      "name": "Jio-bp Pulse",
+      "region": "IN",
+      "type": "ev-charging",
+      "domains": ["jiobp.com"],
+      "source": "https://www.jiobp.com/products-and-services/EV-charging",
+      "confidence": "high"
+    },
+    {
+      "name": "Park+",
+      "region": "IN",
+      "type": "parking",
+      "domains": ["parkplus.io"],
+      "source": "https://parkplus.io/",
+      "confidence": "high"
+    },
+    {
+      "name": "SP Mobility / SP Group",
+      "region": "SG",
+      "type": "ev-charging",
+      "domains": ["spmobility.sg", "spgroup.com.sg"],
+      "source": "https://www.spmobility.sg/",
+      "confidence": "high"
+    },
+    {
+      "name": "CDG ENGIE (ComfortDelGro ENGIE)",
+      "region": "SG",
+      "type": "ev-charging",
+      "domains": ["cdgengie.com"],
+      "source": "https://cdgengie.com/index.html",
+      "confidence": "high"
+    },
+    {
+      "name": "Charge+",
+      "region": "SG",
+      "type": "ev-charging",
+      "domains": ["chargeplus.com", "chargeplus.sg"],
+      "source": "https://www.chargeplus.com/",
+      "confidence": "high"
+    },
+    {
+      "name": "Parking.sg (URA/HDB, Government of Singapore)",
+      "region": "SG",
+      "type": "parking",
+      "domains": ["parking.sg"],
+      "source": "https://www.ura.gov.sg/Corporate/Car-Parks/Short-Term-Parking/Parkingsg-Mobile-Application",
+      "confidence": "high"
+    },
+    {
+      "name": "Gentari (Gentari Go)",
+      "region": "MY",
+      "type": "ev-charging",
+      "domains": ["gentari.com"],
+      "source": "https://www.gentari.com/go/home",
+      "confidence": "high"
+    },
+    {
+      "name": "JomCharge (EV Connection)",
+      "region": "MY",
+      "type": "ev-charging",
+      "domains": ["jomcharge.com"],
+      "source": "https://www.jomcharge.com/",
+      "confidence": "medium"
+    },
+    {
+      "name": "ChargePoint",
+      "region": "GLOBAL",
+      "type": "ev-charging",
+      "domains": ["chargepoint.com"],
+      "source": "https://www.chargepoint.com/",
+      "confidence": "high"
+    },
+    {
+      "name": "Tesla (Supercharger)",
+      "region": "GLOBAL",
+      "type": "ev-charging",
+      "domains": ["tesla.com"],
+      "source": "https://www.tesla.com/charge",
+      "confidence": "high"
+    },
+    {
+      "name": "Shell Recharge",
+      "region": "GLOBAL",
+      "type": "ev-charging",
+      "domains": ["shellrecharge.com"],
+      "source": "https://shellrecharge.com/en-us/solutions/ev-drivers",
+      "confidence": "high"
+    },
+    {
+      "name": "bp pulse",
+      "region": "GLOBAL",
+      "type": "ev-charging",
+      "domains": ["bppulse.com"],
+      "source": "https://www.bppulse.com/en-gb",
+      "confidence": "high"
+    },
+    {
+      "name": "EVgo",
+      "region": "US",
+      "type": "ev-charging",
+      "domains": ["evgo.com"],
+      "source": "https://www.evgo.com/",
+      "confidence": "high"
+    },
+    {
+      "name": "Electrify America",
+      "region": "US",
+      "type": "ev-charging",
+      "domains": ["electrifyamerica.com"],
+      "source": "https://www.electrifyamerica.com/",
+      "confidence": "high"
+    },
+    {
+      "name": "IONITY",
+      "region": "EU",
+      "type": "ev-charging",
+      "domains": ["ionity.eu"],
+      "source": "https://www.ionity.eu/",
+      "confidence": "high"
+    },
+    {
+      "name": "PayByPhone",
+      "region": "GLOBAL",
+      "type": "parking",
+      "domains": ["paybyphone.com"],
+      "source": "https://www.paybyphone.com/",
+      "confidence": "high"
+    },
+    {
+      "name": "RingGo",
+      "region": "UK",
+      "type": "parking",
+      "domains": ["ringgo.co.uk", "myringgo.co.uk"],
+      "source": "https://ringgo.co.uk/",
+      "confidence": "high"
+    }
+  ]
+}
