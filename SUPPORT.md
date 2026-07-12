@@ -30,11 +30,13 @@ Please tell us — see below. False positives and misses both help us improve.
 
 ## Get help / report an issue
 
-- **Report a bug, a scam we missed, or a false alarm:**
-  [open an issue](https://github.com/MaqAnquor/safeqr-data/issues/new) on this
-  page (a free GitHub account is required to post).
-- Please include: your device model, the app version (shown at the bottom of
-  the **History** screen), and — if safe to share — what the code contained.
+- **Email us:** [support@adsit.work](mailto:support@adsit.work)
+- **Or open an issue:**
+  [report it here](https://github.com/MaqAnquor/safeqr-data/issues/new)
+  (a free GitHub account is required to post).
+
+Please include: your device model, the app version (shown at the bottom of the
+**History** screen), and — if safe to share — what the code contained.
 
 ## Privacy
 
