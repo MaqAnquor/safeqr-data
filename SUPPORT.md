@@ -1,0 +1,42 @@
+# ScanFirst — Help & Support
+
+**ScanFirst** is a safety-first QR & barcode scanner. It checks every code —
+threat databases, true link destination, scam patterns, payment details — and
+explains it in plain language *before* anything opens. Nothing opens or pays
+without your approval.
+
+## Common questions
+
+**Why doesn't it open the link/app automatically?**
+That's the point. ScanFirst shows you where a code really leads and whether
+it's safe first, then *you* decide. Tap "Open" (or the payment-app button) when
+you're satisfied.
+
+**What does "Looks safe" mean?**
+It means our checks found no problems — a helpful signal, not a guarantee.
+Always use your own judgement, especially for payments.
+
+**Do you collect my data?**
+No. No accounts, no ads, no analytics. Scans are analyzed on your device and
+your scan history never leaves your phone. See the
+[Privacy Policy](./PRIVACY.md).
+
+**A payment code asks me to PAY when I expected to RECEIVE money — is that a scam?**
+Very likely yes. Receiving money never requires scanning a QR or entering your
+PIN. ScanFirst warns you about exactly this.
+
+**It flagged a code I think is safe (or missed one I think is bad).**
+Please tell us — see below. False positives and misses both help us improve.
+
+## Get help / report an issue
+
+- **Report a bug, a scam we missed, or a false alarm:**
+  [open an issue](https://github.com/MaqAnquor/safeqr-data/issues/new) on this
+  page (a free GitHub account is required to post).
+- Please include: your device model, the app version (shown at the bottom of
+  the **History** screen), and — if safe to share — what the code contained.
+
+## Privacy
+
+Full privacy policy: [PRIVACY.md](./PRIVACY.md). Short version: we collect
+nothing and store nothing off your device.
