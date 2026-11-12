@@ -2,6 +2,10 @@
 # SafeQR clients have a fallback if urlhaus.abuse.ch is unreachable.
 # OpenPhish is deliberately NOT mirrored: its community-feed terms do not
 # permit redistribution. Clients fall back to their on-device cache for it.
+#
+# abuse.ch retired the old /downloads/text_recent/ URL (HTTP 410) and now
+# requires a free Auth-Key for bulk exports. The key lives in the repo secret
+# URLHAUS_AUTH_KEY and must never be committed or echoed.
 name: Mirror threat feeds
 on:
   schedule:
@@ -17,9 +21,38 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Fetch URLhaus recent feed
+        env:
+          URLHAUS_AUTH_KEY: ${{ secrets.URLHAUS_AUTH_KEY }}
         run: |
-          curl -fsSL --max-time 120 'https://urlhaus.abuse.ch/downloads/text_recent/' -o /tmp/urlhaus.txt
-          # Sanity check: a real feed is comment headers + thousands of URLs.
+          if [ -z "$URLHAUS_AUTH_KEY" ]; then
+            echo "URLHAUS_AUTH_KEY secret is not set" >&2
+            exit 1
+          fi
+          # The key is part of the export URL; curl -f prints only the HTTP
+          # status on failure (not the URL), and Actions masks the secret.
+          curl -fsSL --max-time 120 \
+            "https://urlhaus-api.abuse.ch/v2/files/exports/${URLHAUS_AUTH_KEY}/recent.csv" \
+            -o /tmp/urlhaus.csv
+          # Convert the CSV export to the one-URL-per-line format clients expect.
+          python3 - <<'PY'
+          import csv, re
+          rows = open('/tmp/urlhaus.csv', encoding='utf-8', errors='replace').read().splitlines()
+          # Header is usually a comment line like "# id,dateadded,url,..."
+          col = 2
+          for line in rows:
+              if line.startswith('#') and 'url' in line.lower() and ',' in line:
+                  names = [c.strip().strip('"') for c in line.lstrip('#').split(',')]
+                  if 'url' in names:
+                      col = names.index('url')
+                  break
+          urls = []
+          for rec in csv.reader(l for l in rows if l and not l.startswith('#')):
+              if len(rec) > col and re.match(r'^https?://', rec[col]):
+                  urls.append(rec[col])
+          open('/tmp/urlhaus.txt', 'w', encoding='utf-8').write('\n'.join(urls) + '\n')
+          print(f'converted {len(urls)} URLs')
+          PY
+          # Sanity check: a real feed is thousands of URLs.
           lines=$(grep -c '^http' /tmp/urlhaus.txt || true)
           if [ "$lines" -lt 1000 ]; then
             echo "Feed looks truncated ($lines URLs) — keeping previous mirror" >&2
